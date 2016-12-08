@@ -52,7 +52,6 @@ docHeader <- function() {
   }
 
   insertLine <- function(txt, sep = ' ') {
-    print(insert_row)
     txt <- paste(COMMENT, txt, LF, sep=sep)
     out_dp <- rstudioapi::document_position(insert_row, 1)
     rstudioapi::insertText(location = out_dp, text = txt, id = sec$id)
