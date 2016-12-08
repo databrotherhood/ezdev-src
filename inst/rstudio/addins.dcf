@@ -1,0 +1,14 @@
+Name: Func Header
+Description: Create skeleton header for function
+Binding: funcHeader
+Interactive: false
+
+Name: DF
+Description: Small data frame
+Binding: DF
+Interactive: false
+
+Name: Doc Header
+Description: Create skeleton header for document
+Binding: docHeader
+Interactive: false

@@ -1,0 +1,14 @@
+Package: ezdev
+Type: Package
+Title: Easy development with RStudio plugins
+Version: 1.0.0
+Author: Brandon Loudermilk
+Maintainer: Brandon Loudermilk <b.c.loudermilk@gmail.com>
+Description: Tools that make your life easier developing packages in R Studio.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports: stringr,
+    rstudioapi,
+    lubridate
